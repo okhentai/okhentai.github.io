@@ -1,0 +1,533 @@
+body{
+    background-image: url('bg.png');
+  background-repeat: no-repeat;
+}
+
+.stroke{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.button-2{
+    width: 40px;
+    height: 40px;
+}
+
+.text-password{
+    font-family: Os;
+    font-size: 16px;
+    color: #a5a5a5;
+}
+
+.flexo{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-text{
+    font-family: M;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+#menu{
+    padding-top: 10px;
+}
+
+.text{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#home:hover{
+    animation-name: buttonhover;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#main-icon:hover{
+    animation-name: buttonhover;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+body{
+    margin: 0px;
+}
+
+.linese{
+    width: 100%;
+    height: 40px;
+    background-color: linear-gradient(rgb(139, 2, 231) 28, 28),#5e05d3;
+    border: 0px;
+}
+
+#sec-icon{
+    animation-name: sec-icon;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#line-down{
+    margin-top: 150px;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, rgb(139, 2, 231),#5e05d3);
+    border: 0px solid;
+}
+
+
+#main-icon{
+    animation-name: buttons;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+
+
+#home{
+    animation-name: buttons;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes buttonhover {
+    from{
+        width: 30px;
+    }
+    to{
+        width: 40px;
+    }
+}
+
+@keyframes sec-icon {
+    from{
+        width: 30px;
+    }
+    to{
+        width: 40px;
+    }
+}
+
+@keyframes buttons {
+    from{
+        width: 40px;
+    }
+    to{
+        width: 30px;
+    }
+}
+
+#effects{
+    width: 250px;
+    height: 130px;
+    margin-left: 23%;
+}
+
+a ~ #about-linked{
+    text-decoration: none;
+}
+
+#download-link-to:hover{
+    animation-name: download;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    font-weight: 600;
+}
+
+#download-link-to{
+    animation-name: download-start;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    width: 240px; 
+    height: 60px; 
+    border: 3px solid white; 
+    border-radius: 50px; 
+    background-color: transparent; 
+    font-family: M; 
+    font-weight: 600; 
+    color: white; 
+    cursor: pointer;
+}
+
+@keyframes download-start {
+    from{
+        background-color: white;
+        color: black;
+    }
+    to{
+        background-color: transparent;
+        color: white;
+    }
+}
+
+@keyframes download {
+    from{
+        background-color: transparent;
+        color: white;
+    }
+    to{
+        background-color: white;
+        color: black;
+    }
+}
+
+#bg{
+    background-color: #1C1C1C;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+}
+  
+.child {
+    scroll-snap-align: start;
+}
+
+.textt{
+
+    font-family: M;
+    font-size: 23px;
+}
+
+@keyframes character {
+    from{
+        width: 400px;
+        padding-left: 20%;
+    }
+    to{
+        padding-left: 25%;
+        width: 350px;
+    }
+}
+
+@keyframes characterhover {
+    from{
+        width: 350px;
+        padding-left: 25%;
+    }
+    to{
+        width: 400px;
+        padding-left: 20%;
+    }
+}
+
+#character:hover{
+    animation-name: characterhover;
+    animation-duration: .8 s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#boxing{
+    width: 500px;
+    height: 700px;
+    background-color: #292929;
+    border-radius: 50px;
+}
+
+#character{
+    width: 350px;
+    animation-name: character;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.text-box{
+    font-family: M;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.spacing{
+    padding-top: 20px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 720px;
+}
+
+#buttons-os{
+    display: flex;
+    flex-direction: column;
+}
+
+#boxed{
+    margin: 50px;
+    width: 60%;
+    border: 0px;
+    background-color: #292929;
+    border-radius: 65px;
+}
+
+.text-to-button{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-family: Os;
+    color: white;
+    font-weight: 300;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.texted{
+    display: flex;
+    flex-direction: row;
+}
+
+#text-log{
+    font-family: monospace;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+@keyframes but-d-2 {
+    from{
+        width: 270px;
+        height: 70px;
+    }
+    to{
+        width: 300px;
+        height: 75px;
+        box-shadow: 0px 5px 10px rgb(0,0,0,0.3);
+    }
+}
+
+@keyframes but-d {
+    from{
+        width: 300px;
+        height: 75px;
+        box-shadow: 0px 5px 10px rgb(0,0,0,0.3);
+    }
+    to{
+        width: 270px;
+        height: 70px;
+    }
+}
+
+@keyframes floatback {
+    from{
+        padding-top: 0px;
+    }
+    to{
+        padding-top: 25px;
+    }
+}
+
+@keyframes float {
+    from{
+        padding-top: 10px;
+    }
+    to{
+        padding-top: 0px;
+    }
+}
+
+.button-os-download:hover{
+    animation-name: but-d-2;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.bold{
+    font-weight: 400;
+}
+
+#span{
+    width: 300px;
+    height: 180px;
+    margin: 50px;
+}
+
+.span-text-block{
+    padding-left: 25px;
+    font-family: Os;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.block-lower{
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    width: 300px;
+    height: 150px;
+    color: gray;
+    font-family: Oswald;
+    font-weight: 200;
+    font-size: 17px;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.button-os-download:active{
+    cursor: alias;
+    background-color: rgb(157, 77, 231);
+}
+
+.button-os-download{
+    cursor: pointer;
+    animation-name: but-d;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 270px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    border: 0px;
+    font-family: M; 
+    font-weight: 500; 
+    color: white;
+    font-size: 22px;
+}
+
+#menu-changes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    height: 400px;
+}
+
+#log-changes{
+    width: 50%;
+    border: 10px solid rgb(51, 51, 51);
+    border-radius: 45px;
+    height: 400px;
+    background-color: #202020;
+}
+
+
+#flexible{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pr-up{
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.inside-box{
+    background-color: #1C1C1C;
+    width: 90%;
+    margin-top: 50px;
+    height: 600px;
+    border-radius: 35px;
+    margin: 50px 25px 25px;
+}
+
+.texttt{
+    font-family: Os;
+    color: rgb(109, 109, 109);
+    font-size: 17px;
+}
+
+#main-os{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    width: 100%;   
+}
+
+#head-text{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: M;
+    color: white;
+}
+
+.all-text{
+    height: 300px;
+}
+
+.small-text{
+    color: white;
+    padding-right: 220px;
+    padding-top: 30px;
+    width: 300px;
+    height: 150px;
+    font-family: M;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#info-box{
+    width: 40%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 520px;
+    border-radius: 45px;
+    background-image: url(img/main.png);
+}
+
+.wrapper-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.inner-stroke{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@font-face {
+    font-family: M;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Os;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}

@@ -1,0 +1,95 @@
+window.addEventListener('resize', function() {
+    var width = window.innerWidth;
+
+    document.getElementById('effects').style.marginLeft = '40%';
+  
+    if (width < 1200) {
+        var effectsElement = this.document.getElementById('effects');
+        effectsElement.style.marginLeft = '0%'; 
+        document.getElementById('learn').style.display="none";
+    }
+    else{
+        if (width < 1000) {
+      var effectsElement = document.getElementById('effects');
+      effectsElement.style.marginLeft = '0%';
+      document.getElementById('learn').style.display="none";
+    }
+    else{
+        var effectsElement = document.getElementById('effects');
+        effectsElement.style.marginLeft = '25%';
+        document.getElementById('learn').style.display="inline-block";    
+    }
+    }
+  });
+
+  window.addEventListener('resize', function() {
+    var width = window.innerWidth;
+
+    if (width<1750) {
+      document.getElementById('learn').style.display='none';
+    }
+    else{
+      document.getElementById('learn').style.display='inline-block';
+    }
+  });
+
+  window.addEventListener('resize', function(){
+    var width = window.innerWidth;
+        win10 = document.getElementById('win10');
+        win7 = document.getElementById('win7');
+        linux = document.getElementById('linux');
+        p1 = document.getElementById('p1');
+        p2 = document.getElementById('p2');
+        p3 = document.getElementById('p3');
+        
+
+    if(width<1650) {
+      this.document.getElementById('main-characters').style.display='none';
+      this.document.getElementById('buttons-os').style.marginLeft='50px';
+      this.document.getElementById('main-os').style.height='500px';
+      this.document.getElementById('win10').style.marginLeft='unset';
+        this.document.getElementById('win7').style.marginLeft='unset';
+        this.document.getElementById('linux').style.marginLeft='unset';
+        this.document.getElementById('buttons-os').style.justifyContent='flex-start';
+        this.document.getElementById('buttons-os').style.marginTop='0px';
+    }
+    else{
+      this.document.getElementById('main-characters').style.display='block';
+        this.document.getElementById('boxed').style.justifyContent='unset';
+        this.document.getElementById('win10').style.marginLeft='300px';
+        this.document.getElementById('win7').style.marginLeft='300px';
+        this.document.getElementById('linux').style.marginLeft='300px';
+        this.document.getElementById('main-os').style.height='600px';
+        this.document.getElementById('buttons-os').style.marginTop='50px';
+    }
+  })
+
+
+function viewDiv() {
+    var width = window.innerWidth;
+    if (width<1200) {
+      document.getElementById('menu').style.display='flex';
+      document.getElementById('sec-icon').style.display='inline-block';
+      document.getElementById('main-icon').style.display='none';
+      document.getElementById('discord').style.display="none";
+      document.getElementById('about').style.display='none';
+      document.getElementById("discord-icon").style.display='inline-block';
+      document.getElementById('about-icon').style.display='inline-block';
+    }
+    else{
+      document.getElementById('menu').style.display='flex';
+      document.getElementById("discord-icon").style.display='none';
+      document.getElementById('about-icon').style.display='none';
+      document.getElementById('discord').style.display='inline-block';
+      document.getElementById('about').style.display='inline-block';
+      document.getElementById('sec-icon').style.display='inline-block';
+      document.getElementById('main-icon').style.display='none';
+    }
+    }
+
+
+  function viewDivElse(){
+      document.getElementById('main-icon').style.display='inline-block';
+      document.getElementById('sec-icon').style.display='none';
+      document.getElementById('menu').style.display='none';
+    }
